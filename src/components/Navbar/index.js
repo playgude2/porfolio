@@ -13,9 +13,7 @@ const Navbar = () => {
   return (
     <Nav>
       <NavbarContainer>
-        // eslint-disable-next-line react/jsx-no-comment-textnodes
         <NavLogo to='/'>
-          // eslint-disable-next-line jsx-a11y/anchor-is-valid
           <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
             <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
           </a>
